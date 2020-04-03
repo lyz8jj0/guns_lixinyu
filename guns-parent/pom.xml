@@ -12,6 +12,7 @@
 
     <modules>
         <module>../guns-rest</module>
+        <module>../guns-core</module>
     </modules>
 
     <properties>
