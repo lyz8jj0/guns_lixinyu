@@ -13,6 +13,10 @@ import com.lixinyu.guns.rest.modular.security.impl.Base64SecurityAction;
 public class DecryptTest {
 
 	public static void main(String[] args) {
+
+		String jwtToken = "";
+
+
 		String salt = "t9f1xt";
 		SimpleObject simpleObject = new SimpleObject();
 		simpleObject.setUser("lixinyu");
